@@ -1,0 +1,22 @@
+#spinner-wrapper {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+}
+
+#spinner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+#pointer {
+  position: absolute;
+  top: 50%;
+  right: -65px;
+  transform: translateY(-50%) rotate(0deg);
+  width: 100px;
+  height: 100px;
+}
