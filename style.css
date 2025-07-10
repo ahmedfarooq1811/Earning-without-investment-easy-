@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+nav {
+  background: #222;
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#spinner-wrapper {
+  position: relative;
+  margin-top: 30px;
+}
+#spinner {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+#pointer {
+  position: absolute;
+  right: -15px;
+  top: 110px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(90deg);
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
